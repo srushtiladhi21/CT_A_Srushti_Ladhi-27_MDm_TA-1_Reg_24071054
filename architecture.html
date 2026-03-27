@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Web Architecture Diagram</title>
+
+<style>
+    body{
+        margin:0;
+        font-family: Arial, Helvetica, sans-serif;
+        background:#f5f5f5;
+    }
+
+    .section{
+        padding:40px 20px;
+    }
+
+    .top{
+        background:#f2d77b;
+        text-align:center;
+    }
+
+    .middle{
+        background:#cfe8f6;
+        text-align:center;
+    }
+
+    .title{
+        font-size:28px;
+        font-weight:bold;
+        margin-bottom:20px;
+    }
+
+    .box{
+        background:white;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        padding:20px;
+        display:inline-block;
+        min-width:260px;
+        margin:20px;
+        position:relative;
+    }
+
+    .browser-title{
+        background:#444;
+        color:white;
+        padding:10px;
+        border-radius:8px 8px 0 0;
+        font-weight:bold;
+    }
+
+    .framework-title{
+        background:#444;
+        color:white;
+        padding:10px;
+        border-radius:8px 8px 0 0;
+        font-weight:bold;
+    }
+
+    .subtext{
+        margin-top:10px;
+        font-size:14px;
+    }
+
+    .icons{
+        margin-top:10px;
+        font-size:18px;
+        letter-spacing:10px;
+    }
+
+    .arrow{
+        font-size:40px;
+        margin:10px;
+    }
+
+    .survey-container{
+        display:flex;
+        justify-content:center;
+        gap:40px;
+        margin-top:30px;
+        flex-wrap:wrap;
+    }
+
+    .survey{
+        width:200px;
+        background:white;
+        border-radius:10px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        padding:10px;
+    }
+
+    .survey-header{
+        background:#444;
+        color:white;
+        padding:8px;
+        border-radius:8px 8px 0 0;
+        font-weight:bold;
+    }
+
+    .file{
+        background:#e9eef3;
+        margin:10px;
+        padding:10px;
+        border-radius:6px;
+        font-size:14px;
+    }
+
+    .layer-label{
+        position:absolute;
+        left:10px;
+        top:10px;
+        font-weight:bold;
+        font-size:18px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- USER INTERFACE LAYER -->
+<div class="section top">
+    <div class="title">User Interface Layer</div>
+
+    <div class="box">
+        <div class="browser-title">Browser</div>
+        <div class="subtext">Executes HTML5, JavaScript, D3, Bootstrap</div>
+        <div class="icons">🌐 🟧 🟨 🟦 🟪</div>
+    </div>
+
+    <div class="arrow">⬇️</div>
+</div>
+
+<!-- WEB FRAMEWORK LAYER -->
+<div class="section middle">
+    <div class="title">Web Framework Layer</div>
+
+    <div class="box">
+        <div class="framework-title">Django Web Framework</div>
+        <div style="font-size:32px; margin-top:10px;">django</div>
+    </div>
+
+    <div class="arrow">⬇️</div>
+
+    <div class="title">Storage Layer</div>
+
+    <div class="survey-container">
+
+        <div class="survey">
+            <div class="survey-header">Survey 1</div>
+            <div class="file">Data File<br/>.csv</div>
+            <div class="file">Code book<br/>.csv</div>
+        </div>
+
+        <div class="survey">
+            <div class="survey-header">Survey 2</div>
+            <div class="file">Data File<br/>.csv</div>
+            <div class="file">Code book<br/>.csv</div>
+        </div>
+
+        <div class="survey">
+            <div class="survey-header">Survey 3</div>
+            <div class="file">Data File<br/>.csv</div>
+            <div class="file">Code book<br/>.csv</div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
