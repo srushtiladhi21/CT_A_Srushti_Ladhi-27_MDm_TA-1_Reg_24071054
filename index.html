@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Experts Advice</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body{
+        background: #0e1625;
+        color: white;
+    }
+
+    /* NAVBAR */
+    nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px 80px;
+        background:transparent;
+    }
+
+    nav h2{
+        color:#b36bff;
+        font-weight:700;
+    }
+
+    nav ul{
+        list-style:none;
+        display:flex;
+        gap:30px;
+        align-items:center;
+    }
+
+    nav ul li{
+        cursor:pointer;
+        opacity:0.8;
+    }
+
+    nav button{
+        background:#7a3cff;
+        color:white;
+        border:none;
+        padding:10px 18px;
+        border-radius:6px;
+        cursor:pointer;
+    }
+
+    /* HERO SECTION */
+    .hero{
+        padding:80px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .hero-text{
+        max-width:600px;
+    }
+
+    .hero-text h1{
+        font-size:52px;
+        line-height:1.2;
+        margin-bottom:20px;
+    }
+
+    .hero-text span{
+        color:#b36bff;
+    }
+
+    .hero-text p{
+        margin-bottom:30px;
+        opacity:0.7;
+        line-height:1.6;
+    }
+
+    .buttons{
+        display:flex;
+        gap:15px;
+    }
+
+    .btn-primary{
+        background:#7a3cff;
+        border:none;
+        color:white;
+        padding:12px 24px;
+        border-radius:6px;
+        cursor:pointer;
+    }
+
+    .btn-outline{
+        background:transparent;
+        border:1px solid #7a3cff;
+        color:white;
+        padding:12px 24px;
+        border-radius:6px;
+        cursor:pointer;
+    }
+
+    .hero-image{
+        width:450px;
+        height:300px;
+        background:linear-gradient(135deg,#1e293b,#111827);
+        border-radius:12px;
+        box-shadow:0 0 40px rgba(122,60,255,0.3);
+    }
+
+    /* WHY CHOOSE SECTION */
+    .why-section{
+        padding:60px 80px;
+        text-align:center;
+    }
+
+    .why-section h2{
+        margin-bottom:40px;
+        font-size:28px;
+    }
+
+    .cards{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+    }
+
+    .card{
+        background:#1a2438;
+        padding:30px;
+        width:280px;
+        border-radius:10px;
+        text-align:left;
+        box-shadow:0 0 25px rgba(122,60,255,0.2);
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-6px);
+    }
+
+    .icon{
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        background:#7a3cff;
+        margin-bottom:15px;
+    }
+
+    .card h3{
+        margin-bottom:10px;
+    }
+
+    .card p{
+        opacity:0.7;
+        font-size:14px;
+    }
+
+    @media(max-width:900px){
+        .hero{
+            flex-direction:column;
+            gap:40px;
+            text-align:center;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Experts Advice</h2>
+    <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Contact</li>
+        <button>Get Started</button>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Don’t guess, get guided. <span>Expert Advice</span> helps you excel</h1>
+        <p>Connect with verified professionals and receive clear guidance for your career and personal growth.</p>
+        <div class="buttons">
+            <button class="btn-primary">Get Advice</button>
+            <button class="btn-outline">Learn More</button>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <!-- Placeholder for image/illustration -->
+    </div>
+</section>
+
+<!-- WHY CHOOSE SECTION -->
+<section class="why-section">
+    <h2>Why Choose Experts Advice</h2>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon"></div>
+            <h3>Fast Matching</h3>
+            <p>Get connected to the right expert quickly based on your needs and interests.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon"></div>
+            <h3>Verified Professionals</h3>
+            <p>All experts are carefully screened to ensure you receive reliable guidance.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon"></div>
+            <h3>24/7 Support</h3>
+            <p>We are always here to help you whenever you need expert advice.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
