@@ -12,17 +12,9 @@ The Landing Page is the first interface users see when they visit the platform. 
 
 ✨ Features
 🎨 Modern UI with dark theme (blue/purple gradient)
-📱 Fully responsive (mobile-friendly)
-🚀 Fast loading design
+
 🔘 Call-to-action buttons (Get Started, Login)
  Navigation bar (Home, About, Services, Contact)
-
-
-
-Instead of drawing this in a graphics tool, the same structure was implemented as a web page layout using only HTML and CSS. Each block in the diagram corresponds to a <div> section styled with CSS.
-
-Step-by-Step Mapping (Image → Code)
-1️Sections = Layers in the Diagram
 
 1. Header / Navbar
 Logo (Expert Advice)
@@ -36,6 +28,13 @@ Background gradient design
 3. Features Section
 Cards showing platform benefits:
 Real Guidance
+
+Instead of drawing this in a graphics tool, the same structure was implemented as a web page layout using only HTML and CSS. Each block in the diagram corresponds to a <div> section styled with CSS.
+
+Step-by-Step Mapping (Image → Code)
+1️Sections = Layers in the Diagram
+
+
 
 
 
