@@ -1,29 +1,41 @@
- Survey Data Viewer – Web-based Interactive Visualization Tool
+ Expert Advice – Online Consultation Platform
 
 ✨This project is inspired by the research paper:
 
-“A web-based, interactive visualization tool for social environmental survey data”
-Published in Environmental Modelling & Software (2016).
+Project Overview
+Expert Advice is a web-based platform designed to connect users with verified professionals across multiple domains such as healthcare, education, business, and more. The system ensures trustworthy guidance through expert verification, structured booking, and real-time communication.
 
-The system provides an interactive web interface to explore survey datasets using HTML, CSS, JavaScript (D3.js), and Django. Instead of static charts, users interact with live HTML pages to visualize survey responses dynamically.
-Paper: A web-based, interactive visualization tool for social environmental survey data
-Journal: Environmental Modelling & Software, 2016
+🏠 Landing Page
+The landing page provides a clean and modern interface where users can explore the platform and understand its purpose.
 
-➡️The architecture and idea of this project are derived from the above research work, where survey results are presented as interactive web pages.
-How the Architecture Diagram Was Recreated Using HTML & CSS
+The Landing Page is the first interface users see when they visit the platform. It is designed to be visually attractive, responsive, and informative, helping users understand the purpose of the system quickly.
 
-The original image from the research paper shows a three-layer web architecture:
+✨ Features
+🎨 Modern UI with dark theme (blue/purple gradient)
+📱 Fully responsive (mobile-friendly)
+🚀 Fast loading design
+🔘 Call-to-action buttons (Get Started, Login)
+ Navigation bar (Home, About, Services, Contact)
 
-User Interface Layer (Browser)
-Web Framework Layer (Django)
-Storage Layer (CSV survey files)
+
 
 Instead of drawing this in a graphics tool, the same structure was implemented as a web page layout using only HTML and CSS. Each block in the diagram corresponds to a <div> section styled with CSS.
 
 Step-by-Step Mapping (Image → Code)
 1️Sections = Layers in the Diagram
 
-The page is divided into two big colored sections:
+1. Header / Navbar
+Logo (Expert Advice)
+Navigation links
+Login / Signup button
+2. Hero Section
+Main heading (tagline)
+Subheading description
+Call-to-action buttons
+Background gradient design
+3. Features Section
+Cards showing platform benefits:
+Real Guidance
 
-Yellow section → User Interface Layer
-Blue section → Web Framework + Storage Layer
+
+
