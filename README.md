@@ -1,5 +1,7 @@
  Expert Advice – Online Consultation Platform
 
+link -  https://www.ijfmr.com/papers/2026/2/70697.pdf
+
 ✨This project is inspired by the research paper:
 
 Project Overview
